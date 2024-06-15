@@ -1,0 +1,9 @@
+PI = 22/7
+jari2,tinggi = map(float, input().split())
+kel = 2*jari2*PI
+l_alas = pow(jari2,2)*PI
+luas = 2*l_alas+kel*tinggi
+vol = l_alas*tinggi
+print("Volume = {:.2f}".format(vol))
+print("Luas = {:.2f}".format(luas))
+print("Keliling = {:.2f}".format(kel))
